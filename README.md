@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-The advent of neural networks has enabled the analysis of a large corpus of textual financial news headlines, an insurmountable task once infeasible. More specifically, extracting aggregated daily sentiment from new headlines is now possible using transformer-based neural network architectures. Utiliing these novel techiques, this project intents to expore how textual analysis alongside univariate price can be used in the financial markets for resource allocation and risk management.
+The advent of neural networks has enabled the analysis of a large corpus of textual financial news headlines, an insurmountable task once infeasible. More specifically, extracting aggregated daily sentiment from new headlines is now possible using transformer-based neural network architectures. Utiliing these novel techiques, this project intends to explore how textual analysis alongside univariate price can be used in the financial markets for resource allocation and risk management.
 
 ## Project Organization
 
