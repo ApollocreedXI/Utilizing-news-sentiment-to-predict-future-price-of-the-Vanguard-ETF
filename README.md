@@ -43,9 +43,7 @@ The results of the project do not support that incorporating news sentiment alon
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── README.md          <- The top-level README for developers using this project.
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebook containing the project's code
 
 ```
 
