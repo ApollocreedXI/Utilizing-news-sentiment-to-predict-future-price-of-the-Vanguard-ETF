@@ -4,6 +4,9 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+<img src="https://github.com/ApollocreedXI/Utilizing-news-sentiment-to-predict-future-price-of-the-Vanguard-ETF/blob/main/reports/Copilot_20260824_143817.png" />
+
+
 ## Introduction
 The advent of neural networks has transformed the landscape for predictive modeling in the financial markets. Unlike traditional autoregressive techniques like ARIMA, neural network architectures can learn long- and short-term dependencies in sequential data. This is an important improvement as financial securities are generally driven by longer-term trends, whereas short-term price action is often volatile and trends are short-lived. Furthermore, novel developments in transformer-based neural network architectures have enabled sentiment analysis of a large corpus of textual financial news headlines. News headline embeddings have been found to improve a model’s ability to predict the next day’s stock price (Qayyum, 2025), but can suffer from issues such as unwanted data leakage during model development and vector sparsity due to short headline titles. For this reason, this project intends to investigate how textual analysis alongside univariate price can be used in the financial markets for resource allocation and risk management. As such, this project intends to evaluate two objectives:
 
