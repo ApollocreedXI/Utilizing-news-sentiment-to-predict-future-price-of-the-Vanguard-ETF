@@ -4,7 +4,19 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-The advent of neural networks has enabled the analysis of a large corpus of textual financial news headlines, an insurmountable task once infeasible. More specifically, extracting aggregated daily sentiment from new headlines is now possible using transformer-based neural network architectures. Utiliing these novel techiques, this project intends to explore how textual analysis alongside univariate price can be used in the financial markets for resource allocation and risk management.
+## Introduction
+The advent of neural networks has transformed the landscape for predictive modeling in the financial markets. Unlike traditional autoregressive techniques like ARIMA, neural network architectures can learn long- and short-term dependencies in sequential data. This is an important improvement as financial securities are generally driven by longer-term trends, whereas short-term price action is often volatile and trends are short-lived. Furthermore, novel developments in transformer-based neural network architectures have enabled sentiment analysis of a large corpus of textual financial news headlines. News headline embeddings have been found to improve a model’s ability to predict the next day’s stock price (Qayyum, 2025), but can suffer from issues such as unwanted data leakage during model development and vector sparsity due to short headline titles. For this reason, this project intends to investigate how textual analysis alongside univariate price can be used in the financial markets for resource allocation and risk management. As such, this project intends to evaluate two objectives:
+
+- Does incorporating aggregated daily sentiment alongside univariate price improve predictive performance?
+
+- Does incorporating news sentiment alongside price in network modeling improve predictive performance over traditional ARIMA modeling?
+
+The results from this project will provide insight into the extent to which sentiment analysis improves model performance. Additionally, it will provide insight into whether the performance increase is meaningful enough to justify training of a more complex and resource intensive model. 
+
+## Main Methods Used
+
+For this project, a univariate hyperparameter-tuned ARIMA model will establish the baseline model. To accomplish the task of sentiment analysis, a pre-trained Bidirectional Encoder Representations from Transformers (BERT) model will be employed. BERT models are specially designed transformer models for NLP tasks such as text classification. Specifically, this project will employ the pre-trained Fin-BERT model available from Hugging Face. The model has been pre-trained on a financial text corpus and will be fine-tuned and adapted for new headline sentiment analysis. Finally, three sequential neural network architectures will be utilized to incorporate univariate price and daily aggregated news sentiment to predict the future daily price of the Vanguard Technology ETF. Specifically, these models include a Gated Recurrent Unit (GRU), a Long-Short Term Memory Network, and the Transformer for network modeling.
+
 
 ## Project Organization
 
@@ -46,8 +58,6 @@ The advent of neural networks has enabled the analysis of a large corpus of text
     ├── config.py               <- Store useful variables and configuration
     │
     ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
     │
     ├── modeling                
     │   ├── __init__.py 
