@@ -1,4 +1,4 @@
-# Utilizing news sentiment to predict future price of the Vanguard Information Technology ETF
+# Utilizing news sentiment to predict the future daily price of the Vanguard Information Technology ETF
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
